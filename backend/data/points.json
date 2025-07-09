@@ -1,0 +1,235 @@
+[
+  {
+    "id": 1,
+    "name": "Otevření telefonu",
+    "lat": 49.835289,
+    "lng": 18.292683,
+    "motivation": "Skvělá práce, detektive. Telefon se podařilo najít – je sice poškozený, ale stále může obsahovat zásadní stopy.",
+    "image": ["/images/st_budova.jpg"],
+    "description": "Telefon je uzamčen čtyřmístným kódem a bez něj se dál nedostaneme. Teď přichází na řadu vaše schopnost číst mezi řádky – a mezi domy. Na úvodní obrazovce telefonu vidíme tuto fotografii budovy, která se nachází na Masarykově náměstí a má souvislost s Divadlem loutek. Snad vám její nalezení nebo hledání v okolí pomůže otevřít telefon.",
+    "puzzle": "Jaký je čtyřmístný kód pro otevření telefonu? Určitě má něco společného s touto budovou.",
+    "answer": "1953",
+    "audio": "",
+    "hint1": "Na této zastávce máte před sebou starou fotografii jedné z budov nedaleko Divadla loutek. V okolí můžete najít vodítka.",
+    "hint2": "Budova se nachází na adrese Masarykovo náměstí 52/33. V kterém roce bylo divadlo založeno?",
+    "hint3": "Divadlo loutek Ostrava bylo založeno roku 1953."
+  },
+  {
+    "id": 2,
+    "name": "Poznámky",
+    "lat": 49.8358778,
+    "lng": 18.2926994,
+    "motivation": "Rok založení divadla nás u archiváře mohl napadnout. Telefon se podařilo odemknout a máme štěstí – v jeho poznámkách jsme našli zmínku o přístupu k sociálním sítím Karla Kašpárka. Ale jak už to u něj bývalo, heslo si nezapsal přímo.",
+    "images": [
+      "/images/tabulka_SLOVO.png",
+      "/images/tabulka_A.png",
+      "/images/tabulka_B.png",
+      "/images/tabulka_C.png"
+    ],
+    "audio": "",
+    "description": "V poznámce je napsáno: 'Procházka po náměstí ti určitě připomene tvé heslo SLOVOABC a koukej pod nohy, ať nezakopneš.' K poznámce jsou připojeny fotky dlaždic, na každé něco chybí – pomozte nám to vyřešit.",
+    "puzzle": "Jak zní heslo?",
+    "answer": "SCÉNA642",
+    "hint1": "Na náměstí je spousta dlaždic s historickými událostmi týkajících se Ostravy. Pomohou vám najít správné slovo a čísla.",
+    "hint2": "Slovo, které hledáte, je SCÉNA.",
+    "hint3": "Heslo, které hledáme, je SCÉNA642."
+  },
+  {
+    "id": 3,
+    "name": "Messenger",
+    "lat": 49.83714700365016,
+    "lng": 18.295123788554424,
+    "areaRadius": 120,
+    "motivation": "Díky vám jsme se dostali k dalším aplikacím, některé se teprve načítají, ale už teď můžeme pokročit dál.",
+    "images": [],
+    "audio": "audio/nahravka.mp3",
+    "description": "V Messengeru jsme objevili starou hlasovou zprávu, která blokuje další zprávy. Zkuste zjistit, čím pokračuje tato konverzace – snad vám tato nahrávka pomůže.",
+    "puzzle": "Jak se jmenuje kniha, o které Karel Kašpárek mluvil? Asi ji budete muset fyzicky najít.",
+    "answer": "LOUTKY!!!70",
+    "hint1": "Na jakém místě byla asi nahrávka pořízena? Co vše je slyšet v okolí?",
+    "hint2": "Kniha byla umístěna tak, aby byla stále viditelná. Rozhlédněte se v okolí knihovny.",
+    "hint3": "Kniha se jmenuje Loutky!!!70."
+  },
+  {
+    "id": 4,
+    "name": "Kalendář",
+    "lat": 49.83761011567875,
+    "lng": 18.297029623627537,
+    "motivation": "Při dalším zkoumání telefonu se vám podařilo otevřít aplikaci Kalendář. Většina záznamů je prázdná nebo nedůležitá, až na jednu podivnou událost.",
+    "image": ["/images/kalendar.jpg"],
+    "audio": "",
+    "description": "Má název ‚Sýkora – výročí odvahy‘ a datum nastavené na 30. dubna – den, kdy Miloš Sýkora padl. V popisu události si archivář zapsal šifru Ř:2, P:9. Nejsme si jisti, co to znamená, ale souřadnice vás zavedou k pomníku Miloše Sýkory, kde možná najdete odpověď.",
+    "puzzle": "Co za slova skrývá památník? Nezapomeňte, že mezery v heslech nepoužíváme.",
+    "answer": "PEKLOOSM",
+    "hint1": "Ř znamená řádek a P písmeno na daném řádku.",
+    "hint2": "Hledáme dvě slova – jedno souvisí s rohatými, druhé je číslovka.",
+    "hint3": "Heslo je PEKLOOSM."
+  },
+  {
+    "id": 5,
+    "name": "Galerie",
+    "lat": 49.831923683979554,
+    "lng": 18.296935245200434,
+    "motivation": "Skvělá práce, je vidět, že se do toho dostáváte a přemýšlíte jako Karel Kašpárek. Zatím máme informace, že byl spatřen na letišti Leoše Janáčka.",
+    "images": [
+      "/images/K.png",
+      "/images/S.png",
+      "/images/T.png",
+      "/images/A.png",
+      "/images/M.png",
+      "/images/R.png"
+    ],
+    "audio": "",
+    "description": "V mapách jsme objevili jeho oblíbenou trasu a v galerii složku s názvem Nadhled a Podhled. Pro další zkoumání v telefonu potřebujeme zjistit, co to znamená – problém bude ve správném pořadí fotek.",
+    "puzzle": "Jak správně seřadit fotky za sebe?",
+    "answer": "SMRTKA",
+    "hint1": "Srovnejte písmena z fotek do jednoho slova – od nejvyššího okénka (první znak) po nejnižší (poslední).",
+    "hint2": "Hledáme postavu, která je součástí orloje.",
+    "hint3": "Hledané slovo je SMRTKA."
+  },
+  {
+    "id": 6,
+    "name": "LoutkoLingua",
+    "lat": 49.832791,
+    "lng": 18.293965,
+    "motivation": "Při pokusu o analýzu telefonu Karla Kašpárka jsme narazili na podivnou aplikaci LoutkoLingua. Aplikace se spouští sama, nejde ji vypnout ani obejít. Jakákoli snaha o odinstalaci selhává – telefon reaguje: ‚Dokonči denní výzvu.‘ Potřebujeme vaši pomoc – zkuste výzvu splnit, třeba nás to pustí dál.",
+    "image": ["/images/loutkolingua.png"],
+    "audio": "",
+    "description": "",
+      "dictionary": [
+    {
+      "loutkovsky": "Pidluke!",
+      "cesky": "Do háje! Kašpárek volá čerty."
+    },
+    {
+      "loutkovsky": "Padluke!",
+      "cesky": "Zatraceně! Kašpárek odvolává čerty."
+    },
+    {
+      "loutkovsky": "Huliváku!",
+      "cesky": "Líný člověk."
+    },
+    {
+      "loutkovsky": "Košťátko ošmrdlaný!",
+      "cesky": "Čarodějnice."
+    },
+    {
+      "loutkovsky": "Brr ha ha!",
+      "cesky": "Škodolibý smích čerta."
+    },
+    {
+      "loutkovsky": "Bu bu bu!",
+      "cesky": "Strašení."
+    },
+    {
+      "loutkovsky": "Břink!",
+      "cesky": "Rána pánví do hlavy."
+    },
+    {
+      "loutkovsky": "Hrrr!",
+      "cesky": "Čert přichází."
+    },
+    {
+      "loutkovsky": "Prrr!",
+      "cesky": "Zastav se! Výstraha."
+    },
+    {
+      "loutkovsky": "Bác!",
+      "cesky": "Někdo padá, dveře se zabouchly."
+    },
+    {
+      "loutkovsky": "Šššššš!",
+      "cesky": "Ticho, napětí, děje se něco."
+    },
+    {
+      "loutkovsky": "Ajajaj!",
+      "cesky": "Bědování, bolest."
+    },
+    {
+      "loutkovsky": "Hle, hle!",
+      "cesky": "Zázrak nebo překvapení."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Které slovo používá Kašpárek, když volá čerty z pekla?",
+      "options": [
+        "Padluke",
+        "Pidluke",
+        "Brr ha ha"
+      ],
+      "correct": "Pidluke"
+    },
+    {
+      "question": "Co znamená „Košťátko ošmrdlaný“?",
+      "options": [
+        "Zlobivé dítě",
+        "Čarodějnice",
+        "Stará loutka"
+      ],
+      "correct": "Čarodějnice"
+    },
+    {
+      "question": "Které citoslovce značí ticho nebo napětí?",
+      "options": [
+        "Břink",
+        "Šššššš",
+        "Hrrr"
+      ],
+      "correct": "Šššššš"
+    },
+    {
+      "question": "Jak loutkáři označují smích čerta?",
+      "options": [
+        "Brr ha ha",
+        "Bu bu bu",
+        "Ajajaj"
+      ],
+      "correct": "Brr ha ha"
+    },
+    {
+      "question": "Co znamená „Břink!“ ve hře s Kašpárkem?",
+      "options": [
+        "Zvonění",
+        "Rána pánví do hlavy",
+        "Skákání po jevišti"
+      ],
+      "correct": "Rána pánví do hlavy"
+    }
+  ],
+    "puzzle": "",
+    "answer": ""
+  },
+  {
+    "id": 7,
+    "name": "Divadlo loutek",
+    "lat": 49.8337297,
+    "lng": 18.2923942,
+    "motivation": "Skvělá práce! Díky vám se podařilo utišit aplikaci LoutkoLingua, která se neustále spouštěla a odmítala zmizet. Máme novou stopu – podle záznamu z letiště odletěl na Havaj a pokoušíme se s ním spojit.",
+    "images": [
+      "/images/budova1.jpg",
+      "/images/budova2.jpg",
+      "/images/budova3.jpg"
+    ],
+    "audio": "",
+    "description": "Zatímco ho hledáme, narazili jsme ve složce s názvem 'Orloj' na zvláštní poznámky a fotografie fasády divadla. Kašpárek měl rád šifry, a tak věříme, že další kód ukryl právě sem. Našli jsme tyto zápisky: ČERT – 8, ANDĚL – 1, KRÁL – 4, KRÁLOVNA – 9, SMRT – 2, KAŠPAR – 3. Vaším úkolem je z těchto indicií sestavit pětimístný kód. My mezitím zjistíme, kde se nachází trezor.",
+    "puzzle": "Zadej pětimístný kód:",
+    "answer": "39892",
+    "hint1": "Přes sklo se dá dobře vidět, ale skrze dřevo nevidíte.",
+    "hint2": "Nespleť si krále s královnou.",
+    "hint3": "Řešení je KAŠPAR, KRÁLOVNA, ČERT, KRÁLOVNA, SMRT – tedy 39892."
+  },
+  {
+    "id": 8,
+    "name": "Trezor",
+    "lat": 49.8337297,
+    "lng": 18.2923942,
+    "areaRadius": 60,
+    "motivation": "Z informací, které nám Karel Kašpárek právě sdělil, víme, že trezor s plány se nachází venku u divadla a kód k jeho otevření jste právě vyřešili.",
+    "image": ["/images/trezor.jpg"],
+    "audio": "",
+    "description": "Najděte trezor na venkovní stěně budovy a zadejte kód 39892. Pokud naleznete plány, ponechte je na místě – technici z DLO se o ně postarají. Za svoji námahu si můžete vzít některé nákresy postav z orloje a doma si je upravit podle sebe.",
+    "puzzle": "",
+    "answer": ""
+  }
+]

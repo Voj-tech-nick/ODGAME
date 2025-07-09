@@ -1,0 +1,226 @@
+/* frontend/src/index.css */
+
+/* -----------------------------
+   New theme inspired by Divadlo loutek
+   Background options:
+   • Light beige: #f3e9dd
+   • Off-white  : #faf5f0
+   • Charcoal   : #333333
+   • Accent red : #c3121d
+   ----------------------------- */
+
+:root {
+  --font-sans:   'Open Sans', sans-serif;
+  --font-serif:  'Playfair Display', serif;
+
+  --color-primary:    #c3121d;  /* Vibrant red accent */
+  --color-secondary:  #333333;  /* Dark charcoal text */
+  --color-bg-main:    #faf5f0;  /* Background color */
+  --color-bg-card:    #ffffff;  /* Color for cards and containers */
+  --color-border:     #e0d7cb;  /* Subtle border, light beige-grey */
+}
+
+/* Reset and base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-main);
+  color: var(--color-secondary);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  color: var(--color-primary);
+  margin-bottom: 0.75em;
+}
+
+/* Page containers */
+.landing-page,
+.point-page,
+.complete-page {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Paragraphs and puzzles */
+p {
+  margin-bottom: 1rem;
+}
+.point-page p {
+  font-style: italic;
+  background-color: rgba(195,18,29,0.05);
+  padding: 1rem;
+  border-left: 4px solid var(--color-primary);
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+input[type="text"] {
+  padding: 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+input[type="text"]:focus {
+  outline: 2px solid var(--color-primary);
+}
+button {
+  padding: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #a10f19;
+}
+
+/* Error messages */
+.error {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+/* Map styling */
+.leaflet-container {
+  width: 100%;
+  height: 300px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+/* Complete page customization */
+.complete-page {
+  text-align: center;
+}
+.complete-page p {
+  font-size: 1.25rem;
+}
+.dictionary table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+.dictionary th, .dictionary td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
+.quiz {
+  margin: 1rem 0;
+}
+.question {
+  margin-bottom: 1rem;
+}
+.quiz label {
+  display: block;
+  margin: 0.25rem 0;
+}
+.correct { color: green; font-weight: bold; }
+.incorrect { color: red; font-weight: bold; }
+.quiz button {
+  margin-top: 0.5rem;
+}
+.hints {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* vystředí vodorovně */
+  margin-top: 1rem;    /* odsazení od formuláře */
+}
+.hint-toggle {
+  display: inline-block;
+  margin: 0.5rem 0;    /* svislé odsazení mezi tlačítky */
+}
+.hint-toggle {
+  background-color: #0055a5;    /* tmavě modrá */
+  color: #fff;                  /* bílý text */
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.hint-toggle:hover {
+  background-color: #003f7f;    /* tmavší odstín při hover */
+}
+/* CompletePage */
+.complete-page {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 1rem;
+}
+.complete-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-secondary {
+  background-color: #eee;
+  color: #333;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.feedback-section {
+  margin-top: 2rem;
+  text-align: left;
+}
+.feedback-form label {
+  display: block;
+  margin-bottom: 0.75rem;
+}
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.feedback-form button {
+  margin-top: 1rem;
+}
+.social {
+  margin-top: 1.5rem;
+  font-style: italic;
+}
