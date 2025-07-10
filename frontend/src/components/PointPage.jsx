@@ -45,7 +45,7 @@ const maxId = 8;
 
 // Načtení dat bodu
 useEffect(() => {
-  fetch('http://localhost:5000/api/points')
+  fetch('https://odgame-backend.onrender.com/api/points')
     .then(res => {
       return res.json();
     })
@@ -86,7 +86,7 @@ setError(`Špatně – měl jsi ${score} správně.`);
 return;
 }
 // Standardní serverová validace
-fetch('http://localhost:5000/api/validate', {
+fetch('https://odgame-backend.onrender.com/api/validate', {
 method: 'POST',
 headers: { 'Content-Type': 'application/json' },
 body: JSON.stringify({ pointId: parseInt(id, 10), code }),

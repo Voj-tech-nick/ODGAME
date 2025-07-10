@@ -10,7 +10,7 @@ function LandingPage() {
     e.preventDefault();
     setError('');
     try {
-      const res = await fetch('http://localhost:5000/api/validate', {
+      const res = await fetch('https://odgame-backend.onrender.com/api/validate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ pointId: 0, code }),
