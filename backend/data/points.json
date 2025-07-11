@@ -80,7 +80,7 @@
       "/images/R.png"
     ],
     "audio": "",
-    "description": "V mapách jsme objevili jeho oblíbenou trasu a v galerii složku s názvem Nadhled a Podhled. Pro další zkoumání v telefonu potřebujeme zjistit, co to znamená – problém bude ve správném pořadí fotek.",
+    "description": "V mapách jsme objevili jeho oblíbenou trasu a v galerii složku s názvem Nadhled a Podhled. Pro další zkoumání v telefonu potřebujeme zjistit, co to znamená – problém bude ve správném pořadí fotek. *Cesta na další místo možná bude zavřená, takže se budete muset projít po druhé straně řeky.",
     "puzzle": "Jak správně seřadit fotky za sebe?",
     "answer": "SMRTKA",
     "hint1": "Srovnejte písmena z fotek do jednoho slova – od nejvyššího okénka (první znak) po nejnižší (poslední).",
@@ -95,8 +95,8 @@
     "motivation": "Při pokusu o analýzu telefonu Karla Kašpárka jsme narazili na podivnou aplikaci LoutkoLingua. Aplikace se spouští sama, nejde ji vypnout ani obejít. Jakákoli snaha o odinstalaci selhává – telefon reaguje: ‚Dokonči denní výzvu.‘ Potřebujeme vaši pomoc – zkuste výzvu splnit, třeba nás to pustí dál.",
     "image": ["/images/loutkolingua.png"],
     "audio": "",
-    "description": "",
-      "dictionary": [
+    "description": "Pan kašpárek, trávil také hodně času na Pavilonu, možná tam někde nechal slovníček pojmů.",
+    "hint1": [
     {
       "loutkovsky": "Pidluke!",
       "cesky": "Do háje! Kašpárek volá čerty."
