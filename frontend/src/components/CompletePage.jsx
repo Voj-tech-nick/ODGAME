@@ -38,7 +38,7 @@ export default function CompletePage() {
   return (
     <div className="complete-page">
       <h1>Gratulujeme!</h1>
-      <p>Právě jste dokončili dobrodružnou hru v okolí Divadla loutek Ostrava.</p>
+      <p>Právě jste dokončili outdoorovou hru v okolí Divadla loutek Ostrava.</p>
 
       <div className="complete-actions">
         <button className="btn-primary" onClick={handleRestart}>
@@ -51,6 +51,7 @@ export default function CompletePage() {
 
       <section className="feedback-section">
         <h2>Zpětná vazba a novinky</h2>
+        <p>Pokud chcete můžete nám napsat, jaká pro vás naše první outdoorová hra byla.</p>
         <form className="feedback-form" onSubmit={handleSubmit}>
           <label>
             Váš email:

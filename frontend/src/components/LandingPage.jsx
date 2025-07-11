@@ -67,6 +67,32 @@ function LandingPage() {
       {error && <p className="error">{error}</p>}
     </div>
   );
+  <div className="hints">
+        {point.hint1 && (
+          <div>
+            <button type="button" className="hint-toggle" onClick={() => toggleHint(1)}>
+              NÁPOVĚDA 1
+            </button>
+            {showHints[1] && <p className="hint hint-1">Pan Kašpárek si své věci uklízel na podivná místa, někdy i kolem divadla loutek.</p>}
+          </div>
+        )}
+        {point.hint2 && (
+          <div>
+            <button type="button" className="hint-toggle" onClick={() => toggleHint(2)}>
+              NÁPOVĚDA 2
+            </button>
+            {showHints[2] && <p className="hint hint-2">Pan Kašpárek rád sedával v Loutkové kavárně na zahrádce.</p>}
+          </div>
+        )}
+        {point.hint3 && (
+          <div>
+            <button type="button" className="hint-toggle" onClick={() => toggleHint(3)}>
+              NÁPOVĚDA 3
+            </button>
+            {showHints[3] && <p className="hint hint-3">Telefon najdete ve vitríně z boku nobé budovy. Seriové číslo telefonu je KR4L2011</p>}
+          </div>
+        )}
+      </div>
 }
 
 export default LandingPage;
