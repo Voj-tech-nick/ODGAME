@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // Initial phone code for landing page
-const initialPhoneCode = 'NOKIA3310';
+const initialPhoneCode = 'KR4L2011';
 
 // Load points data
 const dataPath = path.join(__dirname, 'data', 'points.json');
