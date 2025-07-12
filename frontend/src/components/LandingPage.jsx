@@ -62,7 +62,7 @@ function LandingPage() {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="KR4L2011"
+          placeholder="Zadej kód"
           value={code}
           onChange={(e) => setCode(e.target.value)} />
         <button type="submit">Odeslat</button>

@@ -195,7 +195,7 @@ return ( <div className="point-page"> <h1>Bod {point.id}: {point.name}</h1>
         <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder={point.answer || 'Zadejte kód'}
+          placeholder={'Zadejte kód'}
           value={code}
           onChange={e => setCode(e.target.value)}
         />
