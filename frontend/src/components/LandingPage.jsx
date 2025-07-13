@@ -39,7 +39,7 @@ function LandingPage() {
         src="/images/úvod.png"
         alt="Úvodní obrazek"
         style={{ maxWidth: '100%', height: 'auto' }} />
-      <p><strong>Orloj u Divadla loutek se zastavil.</strong><br>
+      <p><strong>Orloj u Divadla loutek se zastavil.</strong><br />
 Archivář Karel Kašpárek náhle odešel do důchodu – a zároveň zmizel. Spolu s ním zmizely i plány na opravu orloje, které nikdo jiný nezná. Bez nich zůstane orloj navždy tichý.</p>
 
 <p>Vaším úkolem je zjistit, co se stalo, a vypátrat archivářovy stopy. Budete se pohybovat centrem Ostravy, hledat místa spojená s jeho minulostí, luštit hádanky, odemykat stopy a postupně skládat celý příběh.</p>
